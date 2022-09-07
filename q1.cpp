@@ -25,7 +25,6 @@ public:
             map.insert(pair<int, int>(nums[i], i));
         }
         return {};
-    }
 };
 
 
