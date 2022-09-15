@@ -14,8 +14,8 @@ public:
                         max_sub_len = current_max_sub_len;
                     }
                     sub_str_head = i+1;
-                    str_ptr = sub_str_head;
-                    current_max_sub_len = 0;
+                    //str_ptr = sub_str_head;
+                    current_max_sub_len = str_ptr - sub_str_head;
                 }
             }
             current_max_sub_len += 1;
